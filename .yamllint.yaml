@@ -1,0 +1,12 @@
+---
+extends: default
+ignore: |
+  .git
+  cassettes
+rules:
+  comments:
+    level: error
+  comments-indentation:
+    level: error
+  line-length:
+    max: 130
