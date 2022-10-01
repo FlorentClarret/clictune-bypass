@@ -1,0 +1,11 @@
+[paths]
+source = clictune_bypass
+
+[run]
+branch = true
+source = clictune_bypass
+parallel = true
+
+[report]
+show_missing = true
+precision = 2

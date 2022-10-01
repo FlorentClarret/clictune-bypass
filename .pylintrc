@@ -1,0 +1,26 @@
+[MASTER]
+ignore=tests
+extension-pkg-whitelist=ujson
+min-public-methods=0
+
+[MESSAGES CONTROL]
+
+# Enable the message, report, category or checker with the given id(s). You can
+# either give multiple identifier separated by comma (,) or put this option
+# multiple time.
+#enable=
+
+# Disable the message, report, category or checker with the given id(s). You
+# can either give multiple identifier separated by comma (,) or put this option
+# multiple time (only on the command line, not in the configuration file where
+# it should appear only once).
+# C0114: Missing module docstring (missing-module-docstring)
+# C0115: Missing class docstring (missing-class-docstring)
+# C0116: Missing function or method docstring (missing-function-docstring)
+disable=
+    C0114,
+    C0115,
+    C0116
+
+[FORMAT]
+max-line-length=140

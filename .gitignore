@@ -1,0 +1,14 @@
+.tox
+
+*.egg-info
+.eggs
+build
+dist
+
+.env
+
+# coverage
+.coverage
+htmlcov
+coverage.xml
+report.xml
