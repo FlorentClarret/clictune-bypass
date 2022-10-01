@@ -32,4 +32,8 @@ setup(
     package_data={
         "clictune_bypass": ["py.typed"],
     },
+    install_requires=[
+        "beautifulsoup4==4.11.1",
+        "requests==2.28.1",
+    ],
 )

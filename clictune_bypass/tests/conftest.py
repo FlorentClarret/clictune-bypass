@@ -11,7 +11,7 @@ def custom_headers_check(new_request: Request, cassette_request: Request):
 
 
 class ClictuneBypassTest(VCRTestCase):
-    record_mode = "none"
+    record_mode = "once"
 
     def _get_vcr(self, **kwargs) -> VCR:
         vcr = super()._get_vcr(**kwargs)
