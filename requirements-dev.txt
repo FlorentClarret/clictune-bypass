@@ -2,7 +2,7 @@ black==22.8.0
 bump2version==1.0.1
 commitizen==2.35.0
 coverage==6.5.0
-mypy==0.981
+mypy==0.982
 parameterized==0.8.1
 pre-commit==2.20.0
 pylint==2.15.3
