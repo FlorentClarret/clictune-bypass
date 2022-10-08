@@ -5,7 +5,7 @@ clictune_bypass is a very simple open-source Python library to get links protect
 ## Install
 
 ``` shell
-pip install clictune_bypass
+pip install clictune-bypass
 ```
 
 ## Usage
