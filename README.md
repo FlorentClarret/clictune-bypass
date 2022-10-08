@@ -1,6 +1,6 @@
 # Clictune bypass
 
-clictune_bypass is a very simple open-source Python library to get links protected by [clictune](https://www.clictune.com/)
+clictune_bypass is a very simple open-source Python library to get links protected by [clictune](https://www.clictune.com/).
 
 ## Install
 
