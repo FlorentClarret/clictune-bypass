@@ -8,7 +8,7 @@ README = (HERE / "README.md").read_text(encoding="UTF-8")
 
 setup(
     name="clictune_bypass",
-    version="0.0.2-dev",
+    version="0.0.2",
     description="",
     long_description=README,
     long_description_content_type="text/markdown",
