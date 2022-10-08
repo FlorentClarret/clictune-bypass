@@ -1,1 +1,1 @@
-from clictune_bypass.link import Link
+from clictune_bypass.link import get_url

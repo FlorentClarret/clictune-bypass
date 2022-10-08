@@ -1,6 +1,5 @@
 [MASTER]
-ignore=tests
-extension-pkg-whitelist=ujson
+ignore-paths=["^clictune_bypass/tests/.*$"]
 min-public-methods=0
 
 [MESSAGES CONTROL]
