@@ -20,3 +20,8 @@ class TestGetUrl(ClictuneBypassTest):
 
     def test_link_missing(self) -> None:
         self.assertIsNone(get_url("https://www.mylink1.biz/bypass"))
+
+    def test_with_redirect(self) -> None:
+        self.assertEqual(
+            "https://www.google.com/", get_url("https://www.clictune.com/bypass")
+        )

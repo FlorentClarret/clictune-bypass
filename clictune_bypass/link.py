@@ -9,7 +9,7 @@ LINK_TEXT_PATTERN = re.compile("Click here to access the link")
 
 
 def get_url(url: str) -> Optional[str]:
-    response = requests.get(url, allow_redirects=False, timeout=20)
+    response = requests.get(url, allow_redirects=True, timeout=20)
     response.raise_for_status()
 
     soup_response = BeautifulSoup(response.content, "html.parser")
