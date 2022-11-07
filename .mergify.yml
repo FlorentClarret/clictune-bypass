@@ -1,0 +1,14 @@
+---
+pull_request_rules:
+  - name: automatic merge for Dependabot pull requests
+    conditions:
+      - author=dependabot[bot]
+      - check-success=test (3.7)
+      - check-success=test (3.8)
+      - check-success=test (3.9)
+      - check-success=test (3.10)
+      - check-success=test (3.11)
+      - check-success=pre-commit.ci - pr
+    actions:
+      merge:
+        method: merge
