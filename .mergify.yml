@@ -12,3 +12,15 @@ pull_request_rules:
     actions:
       merge:
         method: merge
+  - name: automatic merge for pre-commit pull requests
+    conditions:
+      - author=pre-commit-ci[bot]
+      - check-success=test (3.7)
+      - check-success=test (3.8)
+      - check-success=test (3.9)
+      - check-success=test (3.10)
+      - check-success=test (3.11)
+      - check-success=pre-commit.ci - pr
+    actions:
+      merge:
+        method: merge
